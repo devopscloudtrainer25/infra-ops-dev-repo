@@ -1,0 +1,11 @@
+3. git pull: git push is used for downloading the updated changes from remote github repository branch to local git repository branch.
+
+   command: git pull origin branch_name
+            git pull -f origin --tags
+
+-f force
+
+
+  * git pull
+  * git fetch
+  * git checkout
