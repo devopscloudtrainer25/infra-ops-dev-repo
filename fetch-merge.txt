@@ -1,0 +1,4 @@
+4. git fetch: git fetch will bring the changes from github remote repository branch to intermediatory branch called "origin/branch_name".
+  
+   command: local-main> git fetch origin main   // changes will come from remote main branch to "origin/main" intermediatory branch
+            local-main> git merge origin/main   // merge changes from "origin/main" into local main branch
