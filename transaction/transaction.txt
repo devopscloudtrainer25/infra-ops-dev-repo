@@ -1,0 +1,14 @@
+  eg: feature    M1 M2 M3 M4 M5 M6 M7 M9
+
+        feature> git cherry-pick M9
+ 
+      feature-1  M1 M2 M3 M4 M5 M6 M7 M8 M9 M10
+
+
+
+[root@ip-172-31-3-6 devops-repo]# git cherry-pick 9317bf0
+[feature f953347] feature-22.txt in feature-1 branch
+ Date: Thu Nov 12 05:17:05 2026 +0000
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 feature-22.txt
+[root@ip-172-31-3-6 devops-repo]# 
